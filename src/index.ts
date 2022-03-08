@@ -1,5 +1,6 @@
 import inquirer from 'inquirer';
 import { ICommand } from './commands/ICommand';
+import { SubtractionOperationCommand } from './commands/subtraction-command';
 import { SumOperationCommand } from './commands/sum-command';
 
 const operations = [
@@ -11,7 +12,10 @@ const operations = [
   'Exponentiation',
 ];
 
-const commands: ICommand[] = [new SumOperationCommand()];
+const commands: ICommand[] = [
+  new SumOperationCommand(),
+  new SubtractionOperationCommand(),
+];
 
 inquirer
   .prompt({
