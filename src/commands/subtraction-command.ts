@@ -10,7 +10,7 @@ export class SubtractionOperationCommand implements ICommand {
 
   subtraction(a: string, b: string): void {
     const subtraction = Number(a) - Number(b);
-    console.log(`A subtração entre ${a} e ${b} é: ${subtraction}`);
+    console.log(`The subtraction between ${a} and ${b} is: ${subtraction}`);
   }
 
   execute(): void {

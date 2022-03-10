@@ -10,7 +10,7 @@ export class RestOperationCommand implements ICommand {
 
   rest(a: string, b: string): void {
     const rest = Number(a) % Number(b);
-    console.log(`O resto da divisão entre ${a} e ${b} é: ${rest}`);
+    console.log(`The rest of the division between ${a} and ${b} is: ${rest}`);
   }
 
   execute(): void {

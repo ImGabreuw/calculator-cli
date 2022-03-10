@@ -10,7 +10,7 @@ export class DivisionOperationCommand implements ICommand {
 
   division(a: string, b: string): void {
     const division = Number(a) / Number(b);
-    console.log(`A divisão entre ${a} e ${b} é: ${division}`);
+    console.log(`The division between ${a} and ${b} is: ${division}`);
   }
 
   execute(): void {

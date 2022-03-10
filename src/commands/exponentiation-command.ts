@@ -10,7 +10,7 @@ export class ExponentiationOperationCommand implements ICommand {
 
   exponentiation(a: string, b: string): void {
     const exponentiation = Math.pow(Number(a), Number(b));
-    console.log(`${a} elevado a ${b} é: ${exponentiation}`);
+    console.log(`${a} to the power of ${b} is: ${exponentiation}`);
   }
 
   execute(): void {

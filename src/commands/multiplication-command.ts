@@ -10,7 +10,7 @@ export class MultiplicationOperationCommand implements ICommand {
 
   multiplication(a: string, b: string): void {
     const multiplication = Number(a) * Number(b);
-    console.log(`A multiplicação entre ${a} e ${b} é: ${multiplication}`);
+    console.log(`The multiplication between ${a} and ${b} is: ${multiplication}`);
   }
 
   execute(): void {

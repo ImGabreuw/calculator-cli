@@ -10,7 +10,7 @@ export class SumOperationCommand implements ICommand {
 
   sum(a: string, b: string): void {
     const sum = Number(a) + Number(b);
-    console.log(`A soma entre ${a} e ${b} é: ${sum}`);
+    console.log(`The sum between ${a} and ${b} is: ${sum}`);
   }
 
   execute(): void {
