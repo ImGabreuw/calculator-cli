@@ -5,6 +5,7 @@ import { DivisionOperationCommand } from './commands/division-command';
 import { SumOperationCommand } from './commands/sum-command';
 import { SubtractionOperationCommand } from './commands/subtraction-command';
 import { RestOperationCommand } from './commands/rest-command';
+import { ExponentiationOperationCommand } from './commands/exponentiation-command';
 
 const operations = [
   'Sum',
@@ -21,6 +22,7 @@ const commands: ICommand[] = [
   new MultiplicationOperationCommand(),
   new DivisionOperationCommand(),
   new RestOperationCommand(),
+  new ExponentiationOperationCommand(),
 ];
 
 inquirer
