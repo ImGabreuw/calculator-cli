@@ -1,8 +1,9 @@
 import inquirer from 'inquirer';
 import { ICommand } from './commands/ICommand';
 import { MultiplicationOperationCommand } from './commands/multiplication-command';
-import { SubtractionOperationCommand } from './commands/subtraction-command';
+import { DivisionOperationCommand } from './commands/division-command';
 import { SumOperationCommand } from './commands/sum-command';
+import { SubtractionOperationCommand } from './commands/subtraction-command';
 
 const operations = [
   'Sum',
@@ -17,6 +18,7 @@ const commands: ICommand[] = [
   new SumOperationCommand(),
   new SubtractionOperationCommand(),
   new MultiplicationOperationCommand(),
+  new DivisionOperationCommand(),
 ];
 
 inquirer
